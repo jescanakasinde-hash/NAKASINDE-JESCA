@@ -1,0 +1,47 @@
+ccccccs.operator{
+    background-color: orange;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.calculator{
+    background: black;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+.display{
+    background: white;
+    height: 70px;
+    margin-bottom: 15px;
+    border-radius:10px ;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}    
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.button{
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+    background: #eee;
+}
+button:hover{
+    background: #ccc;
+}
+    
